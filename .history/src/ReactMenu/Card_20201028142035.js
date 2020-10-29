@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Card = (props) => {
     return (
         <>
-            <div className="col-md-4 col-12 mx-auto gallerybox">
+            <div className="col-md-4 col-12 mx-auto gallerybox card-deck">
                 <div className="card">
                     <img className="card-img-top imgbox" src={props.imgsrc} alt={props.imgsrc} width="80%"/>
                     <div className="card-body">
