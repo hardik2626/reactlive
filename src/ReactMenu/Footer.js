@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <footer className="bg-light text-center">
                 <p>
-                    2020 AureateLabs. All Rights Reserved | Terms & Condition
+                    {new Date().getFullYear()} HardikDevani. All Rights Reserved | Terms & Condition
                 </p>
             </footer>
         </>
